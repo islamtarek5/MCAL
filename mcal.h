@@ -6,10 +6,6 @@
 #ifndef MCAL_MCAL_H_
 #define MCAL_MCAL_H_
 
-#if defined(ATMEGA32)
-    #include "Atmega32/Atmega32.h"
-#endif
-
 typedef enum
 {
     MCAL_FAIL = -1,
