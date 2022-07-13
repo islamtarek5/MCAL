@@ -14,24 +14,24 @@
 /* MCAL GPIO ports */
 typedef enum
 {
-    GPIO_A = 0x00,
-    GPIO_B,
-    GPIO_C,
-    GPIO_D,
-    GPIO_MAX
+    MCAL_GPIO_A = 0x00,
+    MCAL_GPIO_B,
+    MCAL_GPIO_C,
+    MCAL_GPIO_D,
+    MCAL_GPIO_MAX
 }mcal_gpio_t;
 
 /* MCAL GPIO pins*/
 typedef uint8_t mcal_gpio_pin_t;
-#define PIN_0           0x01
-#define PIN_1           0x02
-#define PIN_2           0x04
-#define PIN_3           0x08
-#define PIN_4           0x10
-#define PIN_5           0x20
-#define PIN_6           0x40
-#define PIN_7           0x80
-#define PIN_ALL         0xff
+#define MCAL_PIN_0           0x01
+#define MCAL_PIN_1           0x02
+#define MCAL_PIN_2           0x04
+#define MCAL_PIN_3           0x08
+#define MCAL_PIN_4           0x10
+#define MCAL_PIN_5           0x20
+#define MCAL_PIN_6           0x40
+#define MCAL_PIN_7           0x80
+#define MCAL_PIN_ALL         0xff
 
 /* MCAL GPIO pin direction*/
 typedef uint8_t mcal_gpio_pin_direction_t;
