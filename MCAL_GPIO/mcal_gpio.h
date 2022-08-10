@@ -1,7 +1,7 @@
 /*********************************************************************************************************************************************/
 /*                                                      Author      : Islam Tarek                                                            */
 /*                                                      SW_Module   : MCAL GPIO                                                              */
-/*                                                      Last_update : 27/7/2022                                                              */  
+/*                                                      Last_update : 10/8/2022                                                              */  
 /*********************************************************************************************************************************************/
 
 #ifndef MCAL_GPIO_MCAL_GPIO_H_
@@ -41,8 +41,8 @@ typedef uint8_t mcal_gpio_pin_direction_t;
 
 /* MCAL GPIO pin level */
 typedef uint8_t mcal_gpio_pin_level_t;
-#define PIN_HIGH        0
-#define PIN_LOW         1
+#define PIN_LOW         0
+#define PIN_HIGH        1
 
 /* MCAL GPIO Wake up state */
 typedef uint8_t mcal_gpio_wake_up_state_t;
