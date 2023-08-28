@@ -2,7 +2,7 @@
  * @Author                : Islam Tarek<islam.tarek@valeo.com>               *
  * @CreatedDate           : 2023-08-28 14:35:39                              *
  * @LastEditors           : Islam Tarek<islam.tarek@valeo.com>               *
- * @LastEditDate          : 2023-08-28 14:55:36                              *
+ * @LastEditDate          : 2023-08-28 15:40:28                              *
  * @FilePath              : MCAL.h                                           *
  ****************************************************************************/
 
@@ -17,11 +17,22 @@
 
 
 /**
+ * @section Typedefs
+ */
+
+/**
+ * @brief GPIO typedefs
+*/
+
+typedef gpio_port_t mcal_port_t;
+typedef gpio_pin_t  mcal_pin_t;
+
+/**
  * @section Macros Definiton
  */
 
 /**
- * @brief Ports Definations
+ * @brief Ports Definitions
  * @note May be updated depending on MCU.
  */
 
@@ -31,7 +42,7 @@
 #define MCAL_PORT_D PORT_D
 
 /**
- * @brief Pins Definations
+ * @brief Pins Definitions
  * @note May be updated depending on MCU.
  */
 
@@ -46,7 +57,7 @@
 #define MCAL_PIN_ALL    PIN_ALL
 
 /**
- * @brief Levels Definations
+ * @brief Levels Definitions
  * @note May be updated depending on MCU.
  */
 
@@ -54,7 +65,7 @@
 #define MCAL_PIN_HIGH   PIN_HIGH_LEVEL
 
 /**
- * @brief Modes Definations
+ * @brief Modes Definitions
  * @note May be updated depending on MCU.
  */
 
@@ -64,7 +75,7 @@
 
 
 /**
- * @section Macros Like Functions Definations
+ * @section Macros Like Functions Definitions
  */
 
 /**
