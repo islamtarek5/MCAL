@@ -2,7 +2,7 @@
  * @Author                : Islam Tarek<islam.tarek@valeo.com>               *
  * @CreatedDate           : 2023-08-28 14:35:39                              *
  * @LastEditors           : Islam Tarek<islam.tarek@valeo.com>               *
- * @LastEditDate          : 2023-08-28 15:40:28                              *
+ * @LastEditDate          : 2023-08-30 17:25:02                              *
  * @FilePath              : MCAL.h                                           *
  ****************************************************************************/
 
@@ -69,9 +69,10 @@ typedef gpio_pin_t  mcal_pin_t;
  * @note May be updated depending on MCU.
  */
 
-#define MCAL_PIN_INPUT_FLOATING PIN_FLOATING_INPUT
-#define MCAL_PIN_INPUT_PULL_UP  PIN_PULL_UP_INPUT
-#define MCAL_PIN_OUTPUT         PIN_OUTPUT
+#define MCAL_PIN_INPUT_FLOATING     PIN_FLOATING_INPUT
+#define MCAL_PIN_INPUT_PULL_UP      PIN_PULL_UP_INPUT
+#define MCAL_PIN_INPUT_PULL_DOWN    PIN_PULL_DOWN_INPUT
+#define MCAL_PIN_OUTPUT             PIN_OUTPUT
 
 
 /**
